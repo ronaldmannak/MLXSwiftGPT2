@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BD17B82C8678B600AECD2C /* MLXSwiftGPT2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17B72C8678B600AECD2C /* MLXSwiftGPT2App.swift */; };
+		F8BD17BA2C8678B600AECD2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17B92C8678B600AECD2C /* ContentView.swift */; };
+		F8BD17BC2C8678B700AECD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BD17BB2C8678B700AECD2C /* Assets.xcassets */; };
+		F8BD17C02C8678B700AECD2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BD17BF2C8678B700AECD2C /* Preview Assets.xcassets */; };
+		F8BD17CA2C8678B700AECD2C /* MLXSwiftGPT2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17C92C8678B700AECD2C /* MLXSwiftGPT2Tests.swift */; };
+		F8BD17D42C8678B700AECD2C /* MLXSwiftGPT2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17D32C8678B700AECD2C /* MLXSwiftGPT2UITests.swift */; };
+		F8BD17D62C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17D52C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BD17C62C8678B700AECD2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BD17AC2C8678B600AECD2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BD17B32C8678B600AECD2C;
+			remoteInfo = MLXSwiftGPT2;
+		};
+		F8BD17D02C8678B700AECD2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BD17AC2C8678B600AECD2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BD17B32C8678B600AECD2C;
+			remoteInfo = MLXSwiftGPT2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8BD17B42C8678B600AECD2C /* MLXSwiftGPT2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLXSwiftGPT2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BD17B72C8678B600AECD2C /* MLXSwiftGPT2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLXSwiftGPT2App.swift; sourceTree = "<group>"; };
+		F8BD17B92C8678B600AECD2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8BD17BB2C8678B700AECD2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8BD17BD2C8678B700AECD2C /* MLXSwiftGPT2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MLXSwiftGPT2.entitlements; sourceTree = "<group>"; };
+		F8BD17BF2C8678B700AECD2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8BD17C52C8678B700AECD2C /* MLXSwiftGPT2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLXSwiftGPT2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BD17C92C8678B700AECD2C /* MLXSwiftGPT2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLXSwiftGPT2Tests.swift; sourceTree = "<group>"; };
+		F8BD17CF2C8678B700AECD2C /* MLXSwiftGPT2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLXSwiftGPT2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BD17D32C8678B700AECD2C /* MLXSwiftGPT2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLXSwiftGPT2UITests.swift; sourceTree = "<group>"; };
+		F8BD17D52C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLXSwiftGPT2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BD17B12C8678B600AECD2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD17C22C8678B700AECD2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD17CC2C8678B700AECD2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8BD17AB2C8678B600AECD2C = {
+			isa = PBXGroup;
+			children = (
+				F8BD17B62C8678B600AECD2C /* MLXSwiftGPT2 */,
+				F8BD17C82C8678B700AECD2C /* MLXSwiftGPT2Tests */,
+				F8BD17D22C8678B700AECD2C /* MLXSwiftGPT2UITests */,
+				F8BD17B52C8678B600AECD2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BD17B52C8678B600AECD2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD17B42C8678B600AECD2C /* MLXSwiftGPT2.app */,
+				F8BD17C52C8678B700AECD2C /* MLXSwiftGPT2Tests.xctest */,
+				F8BD17CF2C8678B700AECD2C /* MLXSwiftGPT2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BD17B62C8678B600AECD2C /* MLXSwiftGPT2 */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD17B72C8678B600AECD2C /* MLXSwiftGPT2App.swift */,
+				F8BD17B92C8678B600AECD2C /* ContentView.swift */,
+				F8BD17BB2C8678B700AECD2C /* Assets.xcassets */,
+				F8BD17BD2C8678B700AECD2C /* MLXSwiftGPT2.entitlements */,
+				F8BD17BE2C8678B700AECD2C /* Preview Content */,
+			);
+			path = MLXSwiftGPT2;
+			sourceTree = "<group>";
+		};
+		F8BD17BE2C8678B700AECD2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD17BF2C8678B700AECD2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8BD17C82C8678B700AECD2C /* MLXSwiftGPT2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD17C92C8678B700AECD2C /* MLXSwiftGPT2Tests.swift */,
+			);
+			path = MLXSwiftGPT2Tests;
+			sourceTree = "<group>";
+		};
+		F8BD17D22C8678B700AECD2C /* MLXSwiftGPT2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD17D32C8678B700AECD2C /* MLXSwiftGPT2UITests.swift */,
+				F8BD17D52C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift */,
+			);
+			path = MLXSwiftGPT2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BD17B32C8678B600AECD2C /* MLXSwiftGPT2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BD17D92C8678B700AECD2C /* Build configuration list for PBXNativeTarget "MLXSwiftGPT2" */;
+			buildPhases = (
+				F8BD17B02C8678B600AECD2C /* Sources */,
+				F8BD17B12C8678B600AECD2C /* Frameworks */,
+				F8BD17B22C8678B600AECD2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLXSwiftGPT2;
+			productName = MLXSwiftGPT2;
+			productReference = F8BD17B42C8678B600AECD2C /* MLXSwiftGPT2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8BD17C42C8678B700AECD2C /* MLXSwiftGPT2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BD17DC2C8678B700AECD2C /* Build configuration list for PBXNativeTarget "MLXSwiftGPT2Tests" */;
+			buildPhases = (
+				F8BD17C12C8678B700AECD2C /* Sources */,
+				F8BD17C22C8678B700AECD2C /* Frameworks */,
+				F8BD17C32C8678B700AECD2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BD17C72C8678B700AECD2C /* PBXTargetDependency */,
+			);
+			name = MLXSwiftGPT2Tests;
+			productName = MLXSwiftGPT2Tests;
+			productReference = F8BD17C52C8678B700AECD2C /* MLXSwiftGPT2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8BD17CE2C8678B700AECD2C /* MLXSwiftGPT2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BD17DF2C8678B700AECD2C /* Build configuration list for PBXNativeTarget "MLXSwiftGPT2UITests" */;
+			buildPhases = (
+				F8BD17CB2C8678B700AECD2C /* Sources */,
+				F8BD17CC2C8678B700AECD2C /* Frameworks */,
+				F8BD17CD2C8678B700AECD2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BD17D12C8678B700AECD2C /* PBXTargetDependency */,
+			);
+			name = MLXSwiftGPT2UITests;
+			productName = MLXSwiftGPT2UITests;
+			productReference = F8BD17CF2C8678B700AECD2C /* MLXSwiftGPT2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BD17AC2C8678B600AECD2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F8BD17B32C8678B600AECD2C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F8BD17C42C8678B700AECD2C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F8BD17B32C8678B600AECD2C;
+					};
+					F8BD17CE2C8678B700AECD2C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F8BD17B32C8678B600AECD2C;
+					};
+				};
+			};
+			buildConfigurationList = F8BD17AF2C8678B600AECD2C /* Build configuration list for PBXProject "MLXSwiftGPT2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8BD17AB2C8678B600AECD2C;
+			productRefGroup = F8BD17B52C8678B600AECD2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BD17B32C8678B600AECD2C /* MLXSwiftGPT2 */,
+				F8BD17C42C8678B700AECD2C /* MLXSwiftGPT2Tests */,
+				F8BD17CE2C8678B700AECD2C /* MLXSwiftGPT2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BD17B22C8678B600AECD2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BD17C02C8678B700AECD2C /* Preview Assets.xcassets in Resources */,
+				F8BD17BC2C8678B700AECD2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD17C32C8678B700AECD2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD17CD2C8678B700AECD2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BD17B02C8678B600AECD2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BD17BA2C8678B600AECD2C /* ContentView.swift in Sources */,
+				F8BD17B82C8678B600AECD2C /* MLXSwiftGPT2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD17C12C8678B700AECD2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BD17CA2C8678B700AECD2C /* MLXSwiftGPT2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD17CB2C8678B700AECD2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BD17D42C8678B700AECD2C /* MLXSwiftGPT2UITests.swift in Sources */,
+				F8BD17D62C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BD17C72C8678B700AECD2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BD17B32C8678B600AECD2C /* MLXSwiftGPT2 */;
+			targetProxy = F8BD17C62C8678B700AECD2C /* PBXContainerItemProxy */;
+		};
+		F8BD17D12C8678B700AECD2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BD17B32C8678B600AECD2C /* MLXSwiftGPT2 */;
+			targetProxy = F8BD17D02C8678B700AECD2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8BD17D72C8678B700AECD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8BD17D82C8678B700AECD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F8BD17DA2C8678B700AECD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLXSwiftGPT2/MLXSwiftGPT2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLXSwiftGPT2/Preview Content\"";
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.MLXSwiftGPT2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8BD17DB2C8678B700AECD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLXSwiftGPT2/MLXSwiftGPT2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLXSwiftGPT2/Preview Content\"";
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.MLXSwiftGPT2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8BD17DD2C8678B700AECD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.MLXSwiftGPT2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLXSwiftGPT2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MLXSwiftGPT2";
+			};
+			name = Debug;
+		};
+		F8BD17DE2C8678B700AECD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.MLXSwiftGPT2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLXSwiftGPT2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MLXSwiftGPT2";
+			};
+			name = Release;
+		};
+		F8BD17E02C8678B700AECD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.MLXSwiftGPT2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLXSwiftGPT2;
+			};
+			name = Debug;
+		};
+		F8BD17E12C8678B700AECD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPKP4XK352;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.MLXSwiftGPT2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLXSwiftGPT2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BD17AF2C8678B600AECD2C /* Build configuration list for PBXProject "MLXSwiftGPT2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BD17D72C8678B700AECD2C /* Debug */,
+				F8BD17D82C8678B700AECD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BD17D92C8678B700AECD2C /* Build configuration list for PBXNativeTarget "MLXSwiftGPT2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BD17DA2C8678B700AECD2C /* Debug */,
+				F8BD17DB2C8678B700AECD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BD17DC2C8678B700AECD2C /* Build configuration list for PBXNativeTarget "MLXSwiftGPT2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BD17DD2C8678B700AECD2C /* Debug */,
+				F8BD17DE2C8678B700AECD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BD17DF2C8678B700AECD2C /* Build configuration list for PBXNativeTarget "MLXSwiftGPT2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BD17E02C8678B700AECD2C /* Debug */,
+				F8BD17E12C8678B700AECD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BD17AC2C8678B600AECD2C /* Project object */;
+}
