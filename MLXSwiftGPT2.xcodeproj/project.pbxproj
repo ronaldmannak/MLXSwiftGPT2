@@ -14,6 +14,13 @@
 		F8BD17CA2C8678B700AECD2C /* MLXSwiftGPT2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17C92C8678B700AECD2C /* MLXSwiftGPT2Tests.swift */; };
 		F8BD17D42C8678B700AECD2C /* MLXSwiftGPT2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17D32C8678B700AECD2C /* MLXSwiftGPT2UITests.swift */; };
 		F8BD17D62C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17D52C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift */; };
+		F8BD17E42C86790300AECD2C /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = F8BD17E32C86790300AECD2C /* MLX */; };
+		F8BD17E62C86790300AECD2C /* MLXFFT in Frameworks */ = {isa = PBXBuildFile; productRef = F8BD17E52C86790300AECD2C /* MLXFFT */; };
+		F8BD17E82C86790300AECD2C /* MLXFast in Frameworks */ = {isa = PBXBuildFile; productRef = F8BD17E72C86790300AECD2C /* MLXFast */; };
+		F8BD17EA2C86790300AECD2C /* MLXLinalg in Frameworks */ = {isa = PBXBuildFile; productRef = F8BD17E92C86790300AECD2C /* MLXLinalg */; };
+		F8BD17EC2C86790300AECD2C /* MLXNN in Frameworks */ = {isa = PBXBuildFile; productRef = F8BD17EB2C86790300AECD2C /* MLXNN */; };
+		F8BD17EF2C86799900AECD2C /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17EE2C86799900AECD2C /* Tokenizer.swift */; };
+		F8BD17F12C8679C400AECD2C /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD17F02C8679C400AECD2C /* TokenizerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,8 @@
 		F8BD17CF2C8678B700AECD2C /* MLXSwiftGPT2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLXSwiftGPT2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BD17D32C8678B700AECD2C /* MLXSwiftGPT2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLXSwiftGPT2UITests.swift; sourceTree = "<group>"; };
 		F8BD17D52C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLXSwiftGPT2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8BD17EE2C86799900AECD2C /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		F8BD17F02C8679C400AECD2C /* TokenizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenizerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8BD17E82C86790300AECD2C /* MLXFast in Frameworks */,
+				F8BD17EA2C86790300AECD2C /* MLXLinalg in Frameworks */,
+				F8BD17E42C86790300AECD2C /* MLX in Frameworks */,
+				F8BD17EC2C86790300AECD2C /* MLXNN in Frameworks */,
+				F8BD17E62C86790300AECD2C /* MLXFFT in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +111,7 @@
 			children = (
 				F8BD17B72C8678B600AECD2C /* MLXSwiftGPT2App.swift */,
 				F8BD17B92C8678B600AECD2C /* ContentView.swift */,
+				F8BD17ED2C86799000AECD2C /* LLM */,
 				F8BD17BB2C8678B700AECD2C /* Assets.xcassets */,
 				F8BD17BD2C8678B700AECD2C /* MLXSwiftGPT2.entitlements */,
 				F8BD17BE2C8678B700AECD2C /* Preview Content */,
@@ -116,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				F8BD17C92C8678B700AECD2C /* MLXSwiftGPT2Tests.swift */,
+				F8BD17F02C8679C400AECD2C /* TokenizerTests.swift */,
 			);
 			path = MLXSwiftGPT2Tests;
 			sourceTree = "<group>";
@@ -127,6 +143,14 @@
 				F8BD17D52C8678B700AECD2C /* MLXSwiftGPT2UITestsLaunchTests.swift */,
 			);
 			path = MLXSwiftGPT2UITests;
+			sourceTree = "<group>";
+		};
+		F8BD17ED2C86799000AECD2C /* LLM */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD17EE2C86799900AECD2C /* Tokenizer.swift */,
+			);
+			path = LLM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +169,13 @@
 			dependencies = (
 			);
 			name = MLXSwiftGPT2;
+			packageProductDependencies = (
+				F8BD17E32C86790300AECD2C /* MLX */,
+				F8BD17E52C86790300AECD2C /* MLXFFT */,
+				F8BD17E72C86790300AECD2C /* MLXFast */,
+				F8BD17E92C86790300AECD2C /* MLXLinalg */,
+				F8BD17EB2C86790300AECD2C /* MLXNN */,
+			);
 			productName = MLXSwiftGPT2;
 			productReference = F8BD17B42C8678B600AECD2C /* MLXSwiftGPT2.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +248,9 @@
 				Base,
 			);
 			mainGroup = F8BD17AB2C8678B600AECD2C;
+			packageReferences = (
+				F8BD17E22C86790300AECD2C /* XCRemoteSwiftPackageReference "mlx-swift" */,
+			);
 			productRefGroup = F8BD17B52C8678B600AECD2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8BD17BA2C8678B600AECD2C /* ContentView.swift in Sources */,
+				F8BD17EF2C86799900AECD2C /* Tokenizer.swift in Sources */,
 				F8BD17B82C8678B600AECD2C /* MLXSwiftGPT2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8BD17CA2C8678B700AECD2C /* MLXSwiftGPT2Tests.swift in Sources */,
+				F8BD17F12C8679C400AECD2C /* TokenizerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +653,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8BD17E22C86790300AECD2C /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8BD17E32C86790300AECD2C /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8BD17E22C86790300AECD2C /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+		F8BD17E52C86790300AECD2C /* MLXFFT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8BD17E22C86790300AECD2C /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXFFT;
+		};
+		F8BD17E72C86790300AECD2C /* MLXFast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8BD17E22C86790300AECD2C /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXFast;
+		};
+		F8BD17E92C86790300AECD2C /* MLXLinalg */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8BD17E22C86790300AECD2C /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXLinalg;
+		};
+		F8BD17EB2C86790300AECD2C /* MLXNN */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8BD17E22C86790300AECD2C /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXNN;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8BD17AC2C8678B600AECD2C /* Project object */;
 }
